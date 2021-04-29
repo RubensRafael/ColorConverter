@@ -12,6 +12,7 @@
     justify-content: space-between;
     border-bottom: 1px solid orange;
     align-items: center;
+    width: 100%;
 }
 
 #header-item-3{
@@ -30,6 +31,7 @@ main{
     flex-wrap: wrap;
     height: 350px;
     margin-top: calc(25vh - 59px);
+    width: 100%;
 }
 
 .box{
