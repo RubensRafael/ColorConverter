@@ -41,6 +41,7 @@ main{
     justify-content: space-around;
     text-align: center;
     padding: 7px;
+    flex: 1 1 1
 }
 
 .colorbox{
@@ -75,12 +76,13 @@ main{
 @media (max-width: 991.98px) {
     main{
         flex-wrap: wrap;
-        height: auto;
+        height: 100vh;
         
     }
     .box-responsive{
         height: 50vh;
         margin-bottom: 10%;
+        flex: 1 1 1
     }
     #header-item-2{
     
