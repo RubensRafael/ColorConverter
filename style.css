@@ -92,3 +92,32 @@ main{
 }
 
 
+
+@media (max-width: 500px) {
+  .box {
+    width: 300px;
+    flex: 1 1 100%;
+  }
+  #a-setcolor,
+  #b-setcolor {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+  }
+
+  label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #hexcolor-input {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+
+
