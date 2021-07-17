@@ -45,7 +45,7 @@ function Convert(color,alpha = 1,hexToRGB){
 
         hexBox.style.border = 'none'
         hexBox.style.backgroundColor = `rgba( ${rgb[0]},${rgb[1]},${rgb[2]}, ${alpha})`
-        let response = '\n' +  `rgb(${rgb[0]},${rgb[0]},${rgb[0]})` + '|' + `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${alpha})`
+        let response = '\n' +  `rgb(${rgb[0]},${rgb[1]},${rgb[2]})` + '|' + `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${alpha})`
         hexDisplay.innerHTML =  response
         
 
