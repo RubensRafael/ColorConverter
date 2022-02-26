@@ -19,7 +19,7 @@ function isHex(value){
 const app = Vue.createApp({
   
   data(){
-    return {color : '000000',alpha:100}
+    return {color : '#000000',alpha:100}
 
   },
   computed:{
@@ -88,7 +88,7 @@ const app2 = Vue.createApp({
         (parseInt(this.green,10) % 16),
         Math.floor((parseInt(this.blue,10) / 16)),
         (parseInt(this.blue,10) % 16))
-        console.log("#" + rgbBox.map((item)=>HEXASTRINGS[item]).join(''))
+        
         return "\n#" + rgbBox.map((item)=>HEXASTRINGS[item]).join('')
      },
     setBackground(){

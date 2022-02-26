@@ -35,7 +35,7 @@
                     <input :style="hexTextStyle" v-model="color" id="hextext-input" maxlength="7" type="text">
                     
                     <label for="hexalpha-input" id="alpha-label">ALPHA:</label>
-                    <input v-model.number="alpha" id="hexalpha-input" type="range" value="100">
+                    <input v-model.number="alpha" id="hexalpha-input" type="range">
                 </div>
                 <textarea :value="rgbResult" disabled name="" id="a-display" class="a display" cols="80" rows="3">
                     
@@ -68,7 +68,7 @@
         
 
 
-    <script src="https://unpkg.com/vue@3.2.29"></script>
+    <script src="https://unpkg.com/vue@3.2.29/dist/vue.global.prod.js"></script>
     <script src="vue.js" ></script>
     
     <script>
